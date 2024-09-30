@@ -26,7 +26,6 @@ try:
 except Exception as e:
     print(f"Error loading images: {e}")
 
-# Initialize webcam
 video_capture = cv2.VideoCapture(1)
 
 def detect_faces(frame):
