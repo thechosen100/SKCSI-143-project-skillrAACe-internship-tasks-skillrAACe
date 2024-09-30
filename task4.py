@@ -1,5 +1,5 @@
 import cv2
-import face_recognition
+import face_recognition #dependency
 import numpy as np
 
 # Load known faces
